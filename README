@@ -57,7 +57,7 @@ copy the contents below into that file
 if [ ! -f ~/.google_authenticator ]; then
     echo ""
     echo ""
-    google-authenticator -t -D -w 17 -S 30 -f -u -e 10
+    google-authenticator -t -D -w 17 -S 30 -f -Q utf8 -u -e 10
     echo ""
     echo "You were given a temporary password for this account."
     echo "Set up google authenticator and sshkey access"
